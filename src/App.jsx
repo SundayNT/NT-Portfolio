@@ -1,21 +1,19 @@
 import './App.css'
-import AboutMe from './components/AboutMe'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import MyProject from './components/MyProject'
-import MySkill from './components/MySkill'
-import ToolsUse from './components/ToolsUse'
+import SkillandTools from './components/SkillAndTools/SkillAndTools'
+import Intro from './components/Intro'
+import AboutMe from './components/AboutMe'
 
 
 export default function App() {
   return (
     <div>
     <NavBar />
+    <Intro />
     <AboutMe />
-
-    <MySkill />
-    <ToolsUse />
-
+    <SkillandTools />
     <MyProject />
     <Footer />
     </div>

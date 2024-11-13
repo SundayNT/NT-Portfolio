@@ -2,7 +2,7 @@
 
 export default function MyProject() {
     return (
-        <div className="w-full flex flex-col items-center md:flex-row gap-10 justify-center">
+        <div id="project" className="w-full flex flex-col items-center md:flex-row gap-10 justify-center mb-10">
             <div className="card bg-base-100 w-96 shadow-xl">
                 <figure>
                     <img
@@ -14,7 +14,7 @@ export default function MyProject() {
                     Project 1
                     </h2>
                     <p>E-commerce project</p>
-                    <button className="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 text-gray-50 font-bold py-3 px-4 rounded-xl my-3">Click Me</button>
+                    <button className="bg-teal-600 hover:bg-teal-700 active:bg-teal-800 text-white font-bold py-3 px-4 rounded-xl my-3">Click Me</button>
                     <div className="card-actions justify-end">
                     <div className="badge badge-outline">HTML</div>
                     <div className="badge badge-outline">JS</div>
@@ -35,7 +35,7 @@ export default function MyProject() {
                     Project 2
                     </h2>
                     <p>Lorem ipsum dolor sit amet consectetur.</p>
-                    <button className="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 text-gray-50 font-bold py-3 px-4 rounded-xl my-3">Click Me</button>
+                    <button className="bg-teal-600 hover:bg-teal-700 active:bg-teal-800 text-white font-bold py-3 px-4 rounded-xl my-3">Click Me</button>
                     <div className="card-actions justify-end">
                     <div className="badge badge-outline">HTML</div>
                     <div className="badge badge-outline">TailwindCSS</div>
