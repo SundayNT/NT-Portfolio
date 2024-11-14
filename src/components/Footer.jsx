@@ -12,7 +12,7 @@ export default function Footer() {
                 <a href="https://github.com/SundayNT" target="_blank">
                     <IoLogoGithub size={30} />
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/nuttanicha-techanoraraj/" target="_blank">
                     <IoLogoLinkedin size={30}/>
                 </a>
                 <div id="contact" className="ml-4">

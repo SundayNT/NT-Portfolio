@@ -23,7 +23,7 @@ export default function NavBar() {
                         <details>
                             <summary>Contact</summary>
                             <ul className="bg-base-100 rounded-t-none p-2 flex flex-col w-[130px]">
-                                <li><a>Linkedin</a></li>
+                                <li><a href="https://www.linkedin.com/in/nuttanicha-techanoraraj/" target="_blank">Linkedin</a></li>
                                 <li><a href="https://github.com/SundayNT" target="_blank">Github</a></li>
                                 <li><a href="/#contact">My Contact</a></li>
                             </ul>
