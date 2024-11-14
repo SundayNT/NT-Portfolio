@@ -10,16 +10,16 @@ export default function MyProject() {
                     alt="#" />
                 </figure>
                 <div className="card-body">
-                    <h2 className="card-title">
-                    Project 1
-                    </h2>
-                    <p>E-commerce project</p>
-                    <button className="bg-teal-600 hover:bg-teal-700 active:bg-teal-800 text-white font-bold py-3 px-4 rounded-xl my-3">Click Me</button>
+                    <h2 className="card-title text-white">Project 1</h2>
+                    <p className="text-white">E-commerce project</p>
+                    <button className="transition transform bg-teal-600 hover:-translate-y-1 hover:bg-teal-700 duration-200 active:bg-teal-800 py-3 px-4 rounded-xl my-3 text-white font-bold ">
+                        <a>Click Me</a>
+                    </button>
                     <div className="card-actions justify-end">
-                    <div className="badge badge-outline">HTML</div>
-                    <div className="badge badge-outline">JS</div>
-                    <div className="badge badge-outline">React+Vite</div>
-                    <div className="badge badge-outline">TailwindCSS</div>
+                    <div className="badge badge-outline text-orange-400">HTML</div>
+                    <div className="badge badge-outline text-yellow-300">JS</div>
+                    <div className="badge badge-outline text-violet-400">React+Vite</div>
+                    <div className="badge badge-outline text-sky-400">TailwindCSS</div>
                     </div>
                 </div>
             </div>
@@ -31,14 +31,14 @@ export default function MyProject() {
                     alt="#" />
                 </figure>
                 <div className="card-body">
-                    <h2 className="card-title">
-                    Project 2
-                    </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                    <button className="bg-teal-600 hover:bg-teal-700 active:bg-teal-800 text-white font-bold py-3 px-4 rounded-xl my-3">Click Me</button>
+                    <h2 className="card-title text-white">Project 2</h2>
+                    <p className="text-white">Lorem ipsum dolor sit amet consectetur.</p>
+                    <button className="transition transform bg-teal-600 hover:-translate-y-1 hover:bg-teal-700 duration-200 active:bg-teal-800 py-3 px-4 rounded-xl my-3 text-white font-bold ">
+                        <a>Click Me</a>
+                    </button>
                     <div className="card-actions justify-end">
-                    <div className="badge badge-outline">HTML</div>
-                    <div className="badge badge-outline">TailwindCSS</div>
+                    <div className="badge badge-outline text-orange-400">HTML</div>
+                    <div className="badge badge-outline text-sky-400">TailwindCSS</div>
                     </div>
                 </div>
             </div>

@@ -7,6 +7,8 @@ export default function NavBar() {
             behavior: 'smooth'
         })
     }
+    
+
     return (
         <div className="navbar bg-base-100 sticky top-0 left-0 z-50">
             <div className="flex-1">
@@ -20,9 +22,10 @@ export default function NavBar() {
                     <li>
                         <details>
                             <summary>Contact</summary>
-                            <ul className="bg-base-100 rounded-t-none p-2 flex flex-col">
+                            <ul className="bg-base-100 rounded-t-none p-2 flex flex-col w-[130px]">
                                 <li><a>Linkedin</a></li>
                                 <li><a href="https://github.com/SundayNT" target="_blank">Github</a></li>
+                                <li><a href="/#contact">My Contact</a></li>
                             </ul>
                         </details>
                     </li>

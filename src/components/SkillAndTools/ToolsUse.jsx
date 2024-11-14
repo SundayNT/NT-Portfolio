@@ -7,7 +7,7 @@ import { SiDaisyui } from "react-icons/si";
 
 export default function ToolsUse() {
     return (
-    <div className="card bg-slate-700 text-neutral-content w-[500px]">
+    <div className="card bg-slate-700/80 text-neutral-content w-[500px]">
         <div className="card-body items-center text-center mb-5">
             <h2 className="card-title mb-5 text-white text-2xl font-semibold">Tools I Use</h2>
             <div className="card-actions flex justify-center">

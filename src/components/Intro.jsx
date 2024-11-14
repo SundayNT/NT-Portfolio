@@ -3,7 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 export default function Intro() {
     return (
     <div className="flex flex-col justify-center items-center p-[100px] ">
-        <div>
+        <div className='text-center'>
         <TypeAnimation
             sequence={[
                 // Same substring at the start will only be typed out once, initially
@@ -21,7 +21,7 @@ export default function Intro() {
             repeat={Infinity}
             />
         </div>
-        <button className="btn bg-teal-600 hover:bg-teal-700 active:bg-teal-800 text-white font-semibold my-10 border-none"><a>Resume</a></button>
+        <button className="btn bg-teal-600 hover:bg-teal-700 active:bg-teal-800 text-white text-lg font-semibold my-10 border-none w-[150px] h-[60px]"><a href='../src/assets/SundayCV.pdf' target='_blank'>Download CV</a></button>
     </div>
     )
 }
