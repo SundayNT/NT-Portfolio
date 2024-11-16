@@ -2,8 +2,8 @@
 
 export default function MyProject() {
     return (
-        <div id="project" className="w-full flex flex-col items-center md:flex-row gap-10 justify-center mb-10">
-            <div className="card bg-base-100 w-96 shadow-xl">
+        <div id="project" className="w-full flex flex-col items-center md:flex-row gap-32 justify-center mb-32">
+            <div className="card bg-base-100 w-96 shadow-xl border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]">
                 <figure>
                     <img
                     src="https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -24,7 +24,7 @@ export default function MyProject() {
                 </div>
             </div>
 
-            <div className="card bg-base-100 w-96 shadow-xl">
+            <div className="card bg-base-100 w-96 shadow-xl border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]">
                 <figure>
                     <img
                     src="https://images.pexels.com/photos/10816120/pexels-photo-10816120.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"

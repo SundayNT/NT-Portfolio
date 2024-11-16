@@ -4,7 +4,7 @@ import { IoLogoLinkedin } from "react-icons/io";
 export default function Footer() {
     return (
     <div>
-        <footer className="footer bg-neutral items-center px-7 py-4 flex flex-col text-white md:flex-row justify-between gap-10 ">
+        <footer className="footer bg-[#1b2631] items-center px-7 py-4 flex flex-col text-white text-[16px] md:flex-row justify-between gap-10 ">
             <aside>
                 <p className="font-semibold">Copyright © {new Date().getFullYear()} - All right reserved</p>
             </aside>
