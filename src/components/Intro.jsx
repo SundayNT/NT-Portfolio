@@ -1,5 +1,5 @@
 import { TypeAnimation } from 'react-type-animation';
-import SundayCV from '/CV/SundayCV.pdf';
+import SundayCV from "/CV/SundayCV.pdf"
 
 export default function Intro() {
     return (
