@@ -3,6 +3,7 @@ import { FaReact } from "react-icons/fa";
 import { BiLogoGit } from "react-icons/bi";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa6";
+import { FaNode } from "react-icons/fa";
 
 
 export default function MySkill() {
@@ -15,6 +16,7 @@ export default function MySkill() {
                 <button className="btn bg-teal-600 hover:bg-teal-700 active:bg-teal-800 text-white transform transition duration-500 hover:scale-110"><FaCss3Alt size={30} /></button>
                 <button className="btn bg-teal-600 hover:bg-teal-700 active:bg-teal-800 text-white transform transition duration-500 hover:scale-110"><SiJavascript size={30} /></button>
                 <button className="btn bg-teal-600 hover:bg-teal-700 active:bg-teal-800 text-white transform transition duration-500 hover:scale-110"><FaReact size={30} /></button>
+                <button className="btn bg-teal-600 hover:bg-teal-700 active:bg-teal-800 text-white transform transition duration-500 hover:scale-110"><FaNode size={30} /></button>
                 <button className="btn bg-teal-600 hover:bg-teal-700 active:bg-teal-800 text-white transform transition duration-500 hover:scale-110"><BiLogoGit  size={30} /></button>
                 </div>
             </div>
