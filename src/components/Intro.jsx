@@ -3,7 +3,7 @@ import SundayCV from "/CV/SundayCV.pdf"
 
 export default function Intro() {
     return (
-    <div className="flex flex-col justify-center items-center p-[100px] h-[750px] ">
+    <div className="flex flex-col justify-center items-center p-[100px] h-[870px]">
         <div className='text-center mb-20'>
         <TypeAnimation
             sequence={[
