@@ -2,7 +2,7 @@ import { useState } from 'react'
 import SundayCV from "/CV/SundayCV.pdf"
 
 export default function Graduated() {
-  const [switchTopic, setSwitchTopic] = useState('');
+  const [switchTopic, setSwitchTopic] = useState('Experience');
 
   return (
     <div>
