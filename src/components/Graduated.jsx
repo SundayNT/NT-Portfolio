@@ -11,8 +11,9 @@ export default function Graduated() {
         <li className="text-2xl text-white font-semibold mb-8 text-center active:text-teal-300"><button className="hover:underline underline-offset-8 decoration-teal-300 decoration-2" onClick={() => setSwitchTopic('Experience')}>Experience</button></li>
         <li className="text-2xl text-white font-semibold mb-8 text-center active:text-teal-300"><button className='hover:underline underline-offset-8 decoration-teal-300 decoration-2' onClick={() => setSwitchTopic('Education')}>Education</button></li>
         </ul>
-        {switchTopic === 'Experience' && <Experience />}
-        {switchTopic === 'Education' && <Education />}
+        {switchTopic === 'Experience' ? <Experience /> : <Education />}
+        {/* {switchTopic === 'Experience' && <Experience />}
+        {switchTopic === 'Education' && <Education />} */}
     </div>
   )
 }
