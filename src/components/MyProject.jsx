@@ -1,4 +1,5 @@
-
+import codeImg1 from "/Image/code-img-1.webp"
+import codeImg2 from "/Image/code-img-2.webp"
 
 export default function MyProject() {
     return (
@@ -6,7 +7,7 @@ export default function MyProject() {
             <div className="card bg-base-100 w-96 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]">
                 <figure>
                     <img
-                    src="https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    src={codeImg1}
                     alt="#" />
                 </figure>
                 <div className="card-body">
@@ -27,7 +28,7 @@ export default function MyProject() {
             <div className="card bg-base-100 w-96 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]">
                 <figure>
                     <img
-                    src="https://images.pexels.com/photos/10816120/pexels-photo-10816120.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    src={codeImg2}
                     alt="#" />
                 </figure>
                 <div className="card-body">

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import SundayCV from "/CV/SundayCV.pdf"
-import { TbHandClick } from "react-icons/tb";
+
 
 export default function Graduated() {
   const [switchTopic, setSwitchTopic] = useState('Experience');
