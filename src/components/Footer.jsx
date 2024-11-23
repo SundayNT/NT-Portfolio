@@ -16,8 +16,8 @@ export default function Footer() {
                     <IoLogoLinkedin size={30}/>
                 </a>
                 <div id="contact" className="ml-4">
-                    <p className="font-semibold">086-8811209</p>
-                    <p className="font-semibold">azterisk13@gmail.com</p>
+                    <p className="font-semibold">📞 086-8811209</p>
+                    <p className="font-semibold">✉️ azterisk13@gmail.com</p>
                 </div>
             </nav>
         </footer>
