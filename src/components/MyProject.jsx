@@ -1,5 +1,6 @@
 import codeImg1 from "/Image/code-img-1.webp"
 import codeImg2 from "/Image/code-img-2.webp"
+import { Link } from "react-router-dom"
 
 export default function MyProject() {
     return (
@@ -12,9 +13,9 @@ export default function MyProject() {
                 </figure>
                 <div className="card-body">
                     <h2 className="card-title text-white">Project 1</h2>
-                    <p className="text-white">E-commerce project</p>
+                    <p className="text-white">Game E-commerce project</p>
                     <button className="transition transform bg-teal-600 hover:-translate-y-1 hover:bg-teal-700 duration-200 active:bg-teal-800 py-3 px-4 rounded-xl my-3 text-white font-bold ">
-                        <a>Click Me</a>
+                        <Link to="/raptormeteorfeast">Click Me</Link>
                     </button>
                     <div className="card-actions justify-end">
                     <div className="badge badge-outline text-orange-400">HTML</div>
@@ -25,7 +26,7 @@ export default function MyProject() {
                 </div>
             </div>
 
-            <div className="card bg-base-100 w-96 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]">
+            {/* <div className="card bg-base-100 w-96 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]">
                 <figure>
                     <img
                     src={codeImg2}
@@ -42,7 +43,7 @@ export default function MyProject() {
                     <div className="badge badge-outline text-sky-400">TailwindCSS</div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
