@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 
 export default function NavBar() {
     const scrollToTop = () => {
@@ -37,7 +37,6 @@ export default function NavBar() {
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1 text-white text-base mr-5 font-semibold">
-                    {/* <li><Link to="/">Back</Link></li> */}
                     <li><a href="/" onClick={(e) => { e.preventDefault(); scrollToTop(); }}>Home</a></li>
                     <li><a href="/#aboutme" onClick={(e) => { e.preventDefault(); scrollToElement(); }}>About Me</a></li>
                     <li><a href="/#project" onClick={(e) => { e.preventDefault(); scrollToElementProject();}}>Project</a></li>
