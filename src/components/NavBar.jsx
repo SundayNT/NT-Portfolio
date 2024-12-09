@@ -1,32 +1,6 @@
 
 
 export default function NavBar() {
-    // const scrollToTop = () => {
-    //     window.scrollTo({
-    //         top: 0,
-    //         behavior: 'smooth'
-    //     })
-    // }
-    // function scrollToElement() {
-    //     const element = document.getElementById('aboutme');
-    //     element.scrollIntoView({
-    //         behavior: 'smooth',
-    //     });
-    // }
-    // function scrollToElementContact() {
-    //     const element = document.getElementById('contact');
-    //     element.scrollIntoView({
-    //         behavior: 'smooth',
-    //     });
-    // }
-
-    // function scrollToElementProject() {
-    //     const element = document.getElementById('project');
-    //     element.scrollIntoView({
-    //         behavior: 'smooth',
-    //     })
-    // }
-
     function smoothScroll(targetId) {
         const targetElement = document.getElementById(targetId);
         const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY;
