@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import SundayCV from "/CV/SundayCV.pdf"
+import SundayCV from "/CV/SundayCV-Rev-2.pdf"
 
 
 export default function Graduated() {

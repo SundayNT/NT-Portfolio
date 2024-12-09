@@ -12,3 +12,9 @@ body {
 html {
   scroll-padding-top: 100px; /* ปรับความสูงที่ต้องการให้พอดีกับ navbar */
 }
+
+.navbar {
+  position: fixed; /* หรือ sticky */
+  top: 0;
+  height: 70px; /* ความสูงของ Navbar */
+}
