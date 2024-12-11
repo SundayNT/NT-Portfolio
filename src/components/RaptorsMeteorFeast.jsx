@@ -3,7 +3,11 @@ import Homepage from "/ProjectImage/homePage.png"
 import GameDetail from "/ProjectImage/gameDetail.png"
 import HeroSection from "/ProjectImage/heroSection.png"
 import CheckOut from "/ProjectImage/checkoutPage.png"
+import Login from "/ProjectImage/Login.png"
+import Register from "/ProjectImage/Register.png"
 import { IoIosArrowBack } from "react-icons/io";
+
+
 
 export default function RaptorsMeteorFeast() {
   return (
@@ -36,18 +40,28 @@ export default function RaptorsMeteorFeast() {
         </div>
       </div>
       <div className="flex flex-col gap-10 items-center">
-      <div className="w-[500px] h-auto">
-        <img src={Homepage} alt="HomepageImg" />
-      </div>
-      <div className="w-[500px] h-auto">
-        <img src={GameDetail} alt="GameDetailImg" />
-      </div>
-      <div className="md:w-1/2 h-auto">
-        <img src={HeroSection} alt="HeroSectionImg" />
-      </div>
-      <div className="md:w-1/2 h-auto">
-        <img src={CheckOut} alt="CheckOutImg" />
-      </div>
+        <div className="flex flex-col md:flex-row gap-10">
+        <div className="w-[500px] h-auto">
+          <img src={Homepage} alt="HomepageImg" className="h-[700px] object-cover"/>
+        </div>
+        <div className="w-[500px] h-auto">
+          <img src={GameDetail} alt="GameDetailImg" className="h-[700px] object-cover" />
+        </div>
+        </div>
+        <div className="flex flex-col md:flex-row gap-10">
+        <div className="w-[500px] h-auto">
+          <img src={Register} alt="HomepageImg" className="h-[700px] object-cover"/>
+        </div>
+        <div className="w-[500px] h-auto">
+          <img src={Login} alt="GameDetailImg" className="h-[700px] object-cover" />
+        </div>
+        </div>
+        <div className="md:w-[60%] h-auto">
+          <img src={HeroSection} alt="HeroSectionImg" className="object-cover" />
+        </div>
+        <div className="md:w-[60%] h-auto">
+          <img src={CheckOut} alt="CheckOutImg" className="object-cover" />
+        </div>
       </div>
     </div>
   )
