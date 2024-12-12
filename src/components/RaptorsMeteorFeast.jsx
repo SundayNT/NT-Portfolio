@@ -5,6 +5,10 @@ import HeroSection from "/ProjectImage/heroSection.png"
 import CheckOut from "/ProjectImage/checkoutPage.png"
 import Login from "/ProjectImage/Login.png"
 import Register from "/ProjectImage/Register.png"
+import NewsPage from "/ProjectImage/newsPage.png"
+import Payment from "/ProjectImage/payment.png"
+import ThankPurchase from "/ProjectImage/thankPurchase.png"
+// import Toastify from "/ProjectImage/toastify.png"
 import { IoIosArrowBack } from "react-icons/io";
 
 
@@ -41,26 +45,37 @@ export default function RaptorsMeteorFeast() {
       </div>
       <div className="flex flex-col gap-10 items-center">
         <div className="flex flex-col md:flex-row gap-10">
-        <div className="w-[500px] h-auto">
-          <img src={Homepage} alt="HomepageImg" className="h-[700px] object-cover"/>
-        </div>
-        <div className="w-[500px] h-auto">
-          <img src={GameDetail} alt="GameDetailImg" className="h-[700px] object-cover" />
-        </div>
+            <div className="w-[500px] h-auto">
+                <img src={Homepage} alt="HomepageImg" className="h-[700px] object-cover"/>
+            </div>
+            <div className="w-[500px] h-auto">
+                <img src={GameDetail} alt="GameDetailImg" className="h-[700px] object-cover" />
+            </div>
+            <div className="w-[500px] h-auto">
+                <img src={NewsPage} alt="NewsPageImg" className="h-[700px] object-cover" />
+            </div>
         </div>
         <div className="flex flex-col md:flex-row gap-10">
-        <div className="w-[500px] h-auto">
-          <img src={Register} alt="HomepageImg" className="h-[700px] object-cover"/>
-        </div>
-        <div className="w-[500px] h-auto">
-          <img src={Login} alt="GameDetailImg" className="h-[700px] object-cover" />
-        </div>
+            <div className="w-[500px] h-auto">
+            <img src={Register} alt="HomepageImg" className="h-[700px] object-cover"/>
+            </div>
+            <div className="w-[500px] h-auto">
+            <img src={Login} alt="GameDetailImg" className="h-[700px] object-cover" />
+            </div>
         </div>
         <div className="md:w-[60%] h-auto">
           <img src={HeroSection} alt="HeroSectionImg" className="object-cover" />
         </div>
         <div className="md:w-[60%] h-auto">
           <img src={CheckOut} alt="CheckOutImg" className="object-cover" />
+        </div>
+        <div className="flex flex-col md:flex-row gap-10">
+            <div className="w-[500px] h-auto">
+                <img src={Payment} alt="PaymentImg" />
+            </div>
+            <div className="w-[500px] h-auto">
+                <img src={ThankPurchase} alt="ThankPurchaseImg" />
+            </div>
         </div>
       </div>
     </div>
