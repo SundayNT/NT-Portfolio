@@ -4,6 +4,13 @@ import homeImg from "/Image/HomeImg.png"
 import { Link } from "react-router-dom"
 
 export default function MyProject() {
+    const handlePageChange = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    };
+
     return (
         <div id="project" className="w-full flex flex-col items-center md:flex-row gap-32 justify-center mb-32">
             <div className="card bg-base-100 w-96 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]">
@@ -16,7 +23,7 @@ export default function MyProject() {
                     <h2 className="card-title text-white">Project 1</h2>
                     <p className="text-white">Game E-commerce project</p>
                     <button className="transition transform bg-teal-600 hover:-translate-y-1 hover:bg-teal-700 duration-200 active:bg-teal-800 py-3 px-4 rounded-xl my-3 text-white font-bold ">
-                        <Link to="/raptormeteorfeast">Click Me</Link>
+                        <Link to="/raptormeteorfeast" onClick={handlePageChange}>Click Me</Link>
                     </button>
                     <div className="card-actions justify-end">
                     <div className="badge badge-outline text-orange-400">HTML</div>
