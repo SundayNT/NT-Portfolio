@@ -1,19 +1,25 @@
 // import codeImg1 from "/Image/code-img-1.webp"
 // import codeImg2 from "/Image/code-img-2.webp"
-import homeImg from "/Image/HomeImg.png"
-import { Link } from "react-router-dom"
+// import homeImg from "/Image/HomeImg.png"
+// import { Link } from "react-router-dom"
+import Project1 from "./Project1";
+import Project2 from "./Project2";
+import Project3 from "./Project3";
 
 export default function MyProject() {
-    const handlePageChange = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth",
-        });
-    };
+    // const handlePageChange = () => {
+    //     window.scrollTo({
+    //         top: 0,
+    //         behavior: "smooth",
+    //     });
+    // };
 
     return (
-        <div id="project" className="w-full flex flex-col items-center md:flex-row gap-32 justify-center mb-32">
-            <div className="card bg-base-100 w-96 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]">
+        <div id="project" className="w-full flex flex-col items-stretch md:flex-row gap-32 justify-center mb-32">
+            <Project1 />
+            <Project2 />
+            <Project3 />
+            {/* <div className="card bg-base-100 w-96 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]">
                 <figure>
                     <img
                     src={homeImg}
@@ -32,7 +38,7 @@ export default function MyProject() {
                     <div className="badge badge-outline text-sky-400">TailwindCSS</div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {/* <div className="card bg-base-100 w-96 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]">
                 <figure>
