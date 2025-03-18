@@ -15,7 +15,7 @@ export default function MyProject() {
     // };
 
     return (
-        <div id="project" className="w-full flex flex-col items-stretch md:flex-row gap-32 justify-center mb-32">
+        <div id="project" className="w-full flex flex-col items-center md:flex-row gap-32 justify-center mb-32">
             <Project1 />
             <Project2 />
             <Project3 />

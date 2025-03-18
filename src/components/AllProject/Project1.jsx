@@ -25,9 +25,7 @@ function Project1() {
           <div className="card-actions justify-end">
             <div className="badge badge-outline text-orange-400">HTML</div>
             <div className="badge badge-outline text-[#F7DF1E]">JavaScript</div>
-            <div className="badge badge-outline text-violet-400">
-              React + Vite
-            </div>
+            <div className="badge badge-outline text-violet-400">React</div>
             <div className="badge badge-outline text-sky-400">TailwindCSS</div>
           </div>
         </div>
