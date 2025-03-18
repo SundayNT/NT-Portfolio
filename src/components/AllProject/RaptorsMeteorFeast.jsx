@@ -16,7 +16,7 @@ import { IoIosArrowUp } from "react-icons/io";
 import ProjectOverview from "./ProjectOverview";
 import ProjectGallery from "./ProjectGallery";
 import DemoProject from "./DemoProject";
-import VideoEmbed from "./DemoProject";
+
 
 const RaptorsMeteorFeast = () => {
     const handleToTop = () => {
@@ -64,7 +64,6 @@ const RaptorsMeteorFeast = () => {
         </div>
         <ProjectOverview />
         <DemoProject />
-        {/* <VideoEmbed /> */}
         <ProjectGallery />
         <div className="font-bold flex justify-end p-5">
             <button onClick={handleToTop} className="text-xl btn bg-teal-600 hover:bg-teal-700 active:bg-teal-800 text-white transform transition duration-500 hover:scale-110"> <IoIosArrowUp size={20} /> To the Top</button>
