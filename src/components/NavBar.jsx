@@ -1,5 +1,4 @@
 
-
 export default function NavBar() {
     function smoothScroll(targetId) {
         const targetElement = document.getElementById(targetId);
@@ -73,9 +72,6 @@ export default function NavBar() {
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1 text-white text-base mr-5 font-semibold">
-                    {/* <li><a href="/" onClick={(e) => { e.preventDefault(); scrollToTop(); }}>Home</a></li>
-                    <li><a href="/aboutme" onClick={(e) => { e.preventDefault(); scrollToElement(); }}>About Me</a></li>
-                    <li><a href="/project" onClick={(e) => { e.preventDefault(); scrollToElementProject();}}>Project</a></li> */}
                     <li>
                         <a onClick={() => smoothScroll('top')}>Home</a>
                     </li>
@@ -101,3 +97,7 @@ export default function NavBar() {
         </div>
     )
 }
+
+
+
+
